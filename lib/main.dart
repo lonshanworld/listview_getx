@@ -19,7 +19,7 @@ void main() async{
 
   if (authController.state == LoginState.loggedIn) {
     startPage = PickupListPage.routeName;
-    cusDebugPrint('Main: Initial route set to HOME.');
+    cusDebugPrint('Main: Initial route set to pickup.');
   } else {
     cusDebugPrint('Main: Initial route remains LOGIN.');
   }
